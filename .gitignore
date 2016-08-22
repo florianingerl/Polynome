@@ -1,0 +1,12 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/Polynoms/bin/Debug
+/Polynoms/obj/Debug
+/Polynoms.UnitTests/bin/Debug
+/Polynoms.UnitTests/obj/Debug
+/PolynomsApp/bin/Debug
+/PolynomsApp/obj/Debug
+/PolynomsWebApp/bin
+/PolynomsWebApp/obj/Debug

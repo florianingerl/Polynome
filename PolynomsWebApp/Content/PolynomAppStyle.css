@@ -1,0 +1,19 @@
+﻿#wrapper
+{
+    margin: 0px auto;
+    background-color:antiquewhite;
+    width: 900px;
+    height: 3000px;
+    border-radius: 25px;
+}
+
+#polynomStuff
+{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: peachpuff;
+    border : solid 1px black;
+    width: 80%; 
+}

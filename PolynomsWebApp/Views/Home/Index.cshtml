@@ -1,0 +1,20 @@
+﻿@model PolynomsWebApp.ViewModels.PolynomViewModel
+
+<h1>Polynom expression calculator</h1>
+<p>
+Don't calculate all your polynom expressions by hand any more. Use this tool to see your polynom expressions in their
+canonical form. Valid polynom expressions look like e.g 5+10(7x^5+3x^2)(5x+2)^2.
+</p>
+<form method="get">
+    <table style="width:100%">
+        <tr>
+            <td>@Html.LabelFor(model => model.PolynomExpression, "Polynom expression:")</td>
+            <td>@Html.TextBoxFor(model => model.PolynomExpression)</td>
+            <td><input type="submit" value="Calculate" /></td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.CanonicalPolynomExpression, "Result:")</td>
+            <td>@Model.CanonicalPolynomExpression</td>
+</tr>
+    </table>
+</form>
